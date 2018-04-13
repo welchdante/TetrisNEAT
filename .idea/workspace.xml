@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5f371a1-6691-4bf0-9c49-cf846778d91a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/neat-tetris/Tetris/tetris.py" beforeDir="false" afterPath="$PROJECT_DIR$/neat-tetris/Tetris/tetris.py" afterDir="false" />
-    </list>
+    <list default="true" id="d5f371a1-6691-4bf0-9c49-cf846778d91a" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +14,8 @@
       <file leaf-file-name="tetris.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/neat-tetris/Tetris/tetris.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="101" column="17" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
+            <state relative-caret-position="339">
+              <caret line="102" column="27" lean-forward="true" selection-start-line="102" selection-start-column="27" selection-end-line="102" selection-end-column="27" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -54,7 +52,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>lam</find>
       <find>str(</find>
       <find>1000</find>
       <find>100</find>
@@ -84,6 +81,7 @@
       <find>tetrisapp</find>
       <find>gameover</find>
       <find>gameover =</find>
+      <find>paused</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -257,7 +255,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1387" height="1028" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.09483146" />
       <window_info anchor="bottom" id="TODO" order="5" />
@@ -530,8 +527,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/neat-tetris/Tetris/tetris.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="101" column="17" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
+        <state relative-caret-position="339">
+          <caret line="102" column="27" lean-forward="true" selection-start-line="102" selection-start-column="27" selection-end-line="102" selection-end-column="27" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
