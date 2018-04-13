@@ -99,7 +99,7 @@ class Tetris(object):
         # pygame.event.set_blocked(pygame.MOUSEMOTION)
         self.next_stone = tetris_shapes[rand(len(tetris_shapes))]
         self.game_end_info = {}
-        self.game_over = False
+        self.gameover = False
         self.genome = genome
         self.neural_network = neat.nn.FeedForwardNetwork.create(genome, config)
         self.init_game()
