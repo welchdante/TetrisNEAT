@@ -11,10 +11,8 @@ from FlapPyBird.modules.base import Base
 
 
 class FlappyBirdApp(object):
-
     def __init__(self, genomes, config):
         global SCREEN, FPSCLOCK
-
         pygame.init()
         FPSCLOCK = pygame.time.Clock()
         SCREEN = pygame.display.set_mode((SCREENWIDTH, SCREENHEIGHT))
@@ -23,19 +21,15 @@ class FlappyBirdApp(object):
         self.score = 0
         self.crash_info = []
 
-        """  CREATE PLAYER """
         self.movementInfo = tools.load_and_initialize()
         self.birds = [Bird(self.movementInfo, genome, config) for genome in genomes]
 
-        """ CREATE PIPES """
         self.pipes = Pipes(Pipe(), Pipe())
 
-        """ CREATE BASE """
         self.base = Base(self.movementInfo['basex'])
 
 
     def play(self):
-
         while True:
             for event in pygame.event.get():
                 if event.type == QUIT or (event.type == KEYDOWN and event.key == K_ESCAPE):
@@ -47,22 +41,9 @@ class FlappyBirdApp(object):
             else:
                 self.on_render()
 
-
-
     def on_loop(self):
-
-        # =========----==========================================================
-        """ CHECK FLAP """
-        # =========----==========================================================
         for bird in self.birds:
             bird.flap_decision(self.pipes)
-        # =========----==========================================================
-
-
-
-        # =========----==========================================================
-        """ CHECK CRASH """
-        # =========----==========================================================
         for index, bird in enumerate(self.birds):
             if bird.check_crash(self.pipes, self.base.basex, self.score):
                 self.crash_info.append((bird.crashInfo, bird.genome))
@@ -70,13 +51,9 @@ class FlappyBirdApp(object):
                 if len(self.birds) == 0:
                     bird.specie_died = True
                     return True
-        # =========----==========================================================
 
-
-        # =========----==========================================================
-        """ CHECK FOR SCORE """
-        # =========----==========================================================
         break_one = break_two = False
+
         for bird in self.birds:
             playerMidPos = bird.x + IMAGES['player'][0].get_width() / 2
             for pipe in self.pipes.upper:
@@ -90,76 +67,24 @@ class FlappyBirdApp(object):
             if break_two:
                 break
 
-        # =========----==========================================================
-
-
-        # =========----==========================================================
-        """ MOVE BASE """
-        # =========----==========================================================
         self.base.move(self.birds)
-        # =========----==========================================================
-
-
-        # =========----==========================================================
-        """ MOVE PLAYER """
-        # =========----==========================================================
         for bird in self.birds:
             bird.move()
-        # =========----==========================================================
 
-
-        # =========----==========================================================
-        """ MOVE PIPES """
-        # =========----==========================================================
         self.pipes.move(self.birds)
-        # =========----==========================================================
         return False
 
 
     def on_render(self):
-        # =========----==========================================================
-        """ DRAW BACKGROUND """
-        # =========----==========================================================
         SCREEN.blit(IMAGES['background'], (0,0))
-        # =========----==========================================================
-
-
-        # =========----==========================================================
-        """ DRAW PIPES """
-        # =========----==========================================================
         self.pipes.draw(SCREEN)
-        # =========----==========================================================
-
-
-        # =========----==========================================================
-        """ DRAW BASE """
-        # =========----==========================================================
         SCREEN.blit(IMAGES['base'], (self.base.basex, BASEY))
-        # =========----==========================================================
-
-
-        # =========----==========================================================
-        """ DRAW STATS """
-        # =========----==========================================================
         disp_tools.displayStat(SCREEN, self.birds[0].distance*-1, text="distance")
         disp_tools.displayStat(SCREEN, self.score, text="scores")
         for bird in self.birds:
             SCREEN.blit(IMAGES['player'][bird.index], (bird.x, bird.y))
-        # =========----==========================================================
-
-
-        # =========----==========================================================
-        """ UPDATE DISPLAY """
-        # =========----==========================================================
         pygame.display.update()
-        # =========----==========================================================
-
-
-        # =========----==========================================================
-        """ TICK CLOCK """
-        # =========----==========================================================
         FPSCLOCK.tick(FPS)
-        # =========----==========================================================
 
 
 if __name__ == "__main__":

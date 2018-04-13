@@ -8,20 +8,18 @@ class Bird(object):
         self.playerIndexGen = player_index_gen['playerIndexGen']
         self.x, self.y = int(SCREENWIDTH * 0.2), player_index_gen['playery']
 
-        self.genome = genome
+        self. genome = genome
         self.neural_network = neat.nn.FeedForwardNetwork.create(genome, config)
 
         self.index = 0
         self.distance = 0
 
-        """ SET BIRD PARAMETERS """
         self.y_velocity    =  -9   # player's velocity along Y, default same as playerFlapped
         self.max_y_velocity =  10   # max vel along Y, max descend speed
         self.gravity    =   1   # players downward accleration
         self.flap_speed =  -9   # players speed on flapping
         self.energy_used = 0
 
-        """ SET FLAGS """
         self.ground_collision = False
         self.pipe_collision = False
         self.collision = False

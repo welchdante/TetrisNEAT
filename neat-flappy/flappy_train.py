@@ -1,6 +1,7 @@
 import neat
 import pickle
 import sys
+from pprint import pprint
 from FlapPyBird.flappy import FlappyBirdApp
 
 def neat_algorithm(n=50):
@@ -8,7 +9,6 @@ def neat_algorithm(n=50):
     config = neat.Config(neat.DefaultGenome, neat.DefaultReproduction,
                          neat.DefaultSpeciesSet, neat.DefaultStagnation,
                          'flappy-config')
-
     # Create the population, which is the top-level object for a NEAT run.
     p = neat.Population(config)
 
@@ -18,22 +18,18 @@ def neat_algorithm(n=50):
     # Run until we achive n.
     winner = p.run(eval_genomes, n=n)
 
-    # dump
     pickle.dump(winner, open('winner.pkl', 'wb'))
 
 def eval_genomes(genomes, config):
 
     # Play game and get results
-    idx,genomes = zip(*genomes)
-
+    idx, genomes = zip(*genomes)
+    
     flappy_Bio = FlappyBirdApp(genomes, config)
     flappy_Bio.play()
-    results = flappy_Bio.crash_info
-    
-    # Calculate fitness and top score
+    results = flappy_Bio.crash_info    # Calculate fitness and top score
     top_score = 0
     for result, genomes in results:
-
         score = result['score']
         distance = result['distance']
         energy = result['energy']
@@ -43,7 +39,6 @@ def eval_genomes(genomes, config):
         if top_score < score:
             top_score = score
 
-    #print score
     print('The top score was:', top_score)
 
 def main():

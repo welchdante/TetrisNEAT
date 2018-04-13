@@ -13,7 +13,7 @@ def run_winner(n=1):
     #load Gnome
     genomes = pickle.load(open('winner.pkl', 'rb'))
     
-    for i in range(0,n):
+    for i in range(0, n):
         # Play game and get results
         flappy_Bio = FlappyBirdApp([genomes], config)
         flappy_Bio.play()
