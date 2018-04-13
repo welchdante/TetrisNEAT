@@ -100,6 +100,7 @@ class Tetris(object):
         self.next_stone = tetris_shapes[rand(len(tetris_shapes))]
         self.game_end_info = {}
         self.gameover = False
+        self.paused = False
         self.genome = genome
         self.neural_network = neat.nn.FeedForwardNetwork.create(genome, config)
         self.init_game()
