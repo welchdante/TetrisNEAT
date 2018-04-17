@@ -1,4 +1,3 @@
-theme : moon
 
 ## Playing Tetris with NEAT 
 An honorable attempt
@@ -23,6 +22,8 @@ An honorable attempt
 ---
  
 ### Flappy Bird Described 
+
+---?image=flappy.png&size=5
 
 
 
