@@ -3,7 +3,7 @@ import pickle
 import sys
 from FlapPyBird.flappy import FlappyBirdApp
 
-def neat_algorithm(n=12):
+def neat_algorithm(n=15):
     config = neat.Config(neat.DefaultGenome, neat.DefaultReproduction,
                          neat.DefaultSpeciesSet, neat.DefaultStagnation,
                          'flappy-config')

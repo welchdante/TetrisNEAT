@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5f371a1-6691-4bf0-9c49-cf846778d91a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/neat-flappy/flappy_winner.py" beforeDir="false" afterPath="$PROJECT_DIR$/neat-flappy/flappy_winner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PITCHME.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flappy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/neat-flappy/flappy_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/neat-flappy/flappy_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="flappy_train.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="flappy_train.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/neat-flappy/flappy_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="153">
+              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -25,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flappy_winner.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="flappy_winner.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/neat-flappy/flappy_winner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="289">
+              <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -49,8 +52,8 @@
       <file leaf-file-name="flappy-config" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/neat-flappy/flappy-config">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+            <state relative-caret-position="136">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -121,12 +124,12 @@
       <find>random.</find>
       <find>10</find>
       <find>get</find>
-      <find />
+      <find>return 1</find>
       <find>2000</find>
       <find>20</find>
       <find>visualize</find>
       <find>input</find>
-      <find />
+      <find>thresh</find>
       <find>200</find>
       <find>move</find>
       <find>'LEFT'</find>
@@ -150,9 +153,9 @@
         <option value="$PROJECT_DIR$/neat-tetris/Tetris/state_holder.py" />
         <option value="$PROJECT_DIR$/neat-tetris/Tetris/tetris.py" />
         <option value="$PROJECT_DIR$/neat-tetris/tetris_train.py" />
+        <option value="$PROJECT_DIR$/neat-flappy/flappy_winner.py" />
         <option value="$PROJECT_DIR$/neat-flappy/flappy-config" />
         <option value="$PROJECT_DIR$/neat-flappy/flappy_train.py" />
-        <option value="$PROJECT_DIR$/neat-flappy/flappy_winner.py" />
       </list>
     </option>
   </component>
@@ -327,7 +330,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1387" height="1028" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25378513" />
       <window_info anchor="bottom" id="TODO" order="5" />
@@ -744,25 +746,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/neat-flappy/flappy-config">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        <state relative-caret-position="136">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/neat-flappy/flappy_train.py">
+    <entry file="file://$PROJECT_DIR$/neat-flappy/flappy_winner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="289">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/neat-flappy/flappy_winner.py">
+    <entry file="file://$PROJECT_DIR$/neat-flappy/flappy_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="153">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
