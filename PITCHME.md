@@ -28,4 +28,4 @@ An honorable attempt
 
 
 
-![Flux Explained](https://facebook.github.io/flux/img/flux-simple-f8-diagram-explained-1300w.png)
+![Flux Explained](https://cdn.vox-cdn.com/thumbor/lCRYurWbsn_OrQHvmn7eRyjqCPM=/148x0:1768x1080/1220x813/filters:focal(148x0:1768x1080):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/36471222/91mQygmODzL-2040.0.jpg)
