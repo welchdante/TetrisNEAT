@@ -1,6 +1,6 @@
-# Flux 
 
-An application architecture for React
+
+### Playing Tetris with NEAT (An Attempt)
 
 ---
 
