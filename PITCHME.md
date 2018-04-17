@@ -1,15 +1,30 @@
+theme : moon
 
+## Playing Tetris with NEAT 
+An honorable attempt
 
-### Playing Tetris with NEAT (An Attempt)
+---
+
+### Introduction
+
+- MarI/O
+- All games can be represtented as inputs and outputs
+- NEAT-Python library
 
 ---
 
-### Flux Design
-
-- Dispatcher: Manages Data Flow
-- Stores: Handle State & Logic
-- Views: Render Data via React
+### Before We Can Play Tetris...
+- Needed a proof-of-concept
+- Flappy Bird, naturally
+- Requirements:
+	- PyGame
+	- Modular (for training)
 
 ---
+ 
+### Flappy Bird Described 
+
+
+
 
 ![Flux Explained](https://facebook.github.io/flux/img/flux-simple-f8-diagram-explained-1300w.png)
