@@ -1,12 +1,13 @@
 from random import randrange as rand
+import random
 import pygame, sys
 from pprint import pprint
 import neat
 
 # The configuration
-cell_size = 18
+cell_size = 30
 cols = 10
-rows = 22
+rows = 20
 maxfps = 30
 
 colors = [
@@ -44,12 +45,10 @@ tetris_shapes = [
      [7, 7]]
 ]
 
-
 def rotate_clockwise(shape):
     return [[shape[y][x]
              for y in range(len(shape))]
             for x in range(len(shape[0]) - 1, -1, -1)]
-
 
 def check_collision(board, shape, offset):
     off_x, off_y = offset
@@ -62,11 +61,9 @@ def check_collision(board, shape, offset):
                 return True
     return False
 
-
 def remove_row(board, row):
     del board[row]
     return [[0 for i in range(cols)]] + board
-
 
 def join_matrixes(mat1, mat2, mat2_off):
     off_x, off_y = mat2_off
@@ -75,13 +72,11 @@ def join_matrixes(mat1, mat2, mat2_off):
             mat1[cy + off_y - 1][cx + off_x] += val
     return mat1
 
-
 def new_board():
     board = [[0 for x in range(cols)]
              for y in range(rows)]
     board += [[1 for x in range(cols)]]
     return board
-
 
 class Tetris(object):
     def __init__(self, genome, config):
@@ -121,9 +116,10 @@ class Tetris(object):
         self.lines = 0
         self.score = 0
         self.holes = 0
+        self.aggregate_height = 0
         self.bumpiness = 0
 
-        pygame.time.set_timer(pygame.USEREVENT + 1, 1)
+        pygame.time.set_timer(pygame.USEREVENT + 1, 10)
 
     def disp_msg(self, msg, topleft):
         x, y = topleft
@@ -167,7 +163,7 @@ class Tetris(object):
                             cell_size), 0)
 
     def add_cl_lines(self, n):
-        linescores = [2, 1000, 2500, 10000, 40000]
+        linescores = [1, 200, 500, 1000, 2000]
         self.lines += n
         self.score += linescores[n] * self.level
         if self.lines >= self.level * 6:
@@ -195,7 +191,7 @@ class Tetris(object):
 
     def drop(self, manual):
         if not self.gameover and not self.paused:
-            self.score += 1 if manual else 0
+            #self.score += 1 if manual else 0
             self.stone_y += 1
             if check_collision(self.board,
                                self.stone,
@@ -240,45 +236,51 @@ class Tetris(object):
             self.init_game()
             self.gameover = False
 
+    # Takes inputs, feeds them to the neural network
+    # and outputs the proper move
     def move_decision(self, board, current_piece, next_piece):
         nn_input = []
-        for i in range(len(board)):
+        for i in range(len(board) - 1):
             for block in board[i]:
+                block_in = 0
                 if block > 0:
-                    block = 1
-                nn_input.append(block)
+                    block_in = 1
+                nn_input.append(block_in)
 
         current_piece_input = self.get_piece(current_piece)
-        for element in current_piece_input:
-            nn_input.append(element)
+        for i in current_piece_input:
+            nn_input.append(i)
 
         next_piece_input = self.get_piece(next_piece)
-        for element in next_piece_input:
-            nn_input.append(element)
+        for i in next_piece_input:
+            nn_input.append(i)
 
         output = self.neural_network.activate(nn_input)
-        max_index = output.index(max(output))
-        if max_index == 0:
-            self.move(+1)
-        elif max_index == 1:
-            self.move(-1)
-        elif max_index == 2:
-            self.drop(True)
-        else:
-            self.rotate_stone()
 
+        max_index = output.index(max(output))
+
+        if max_index == 0:
+            self.rotate_stone()
+        elif max_index == 1:
+            lambda: self.move(+1)
+        elif max_index == 2:
+            lambda: self.move(-1)
+        else:
+            lambda: self.drop(True)
+
+    # Returns the proper 'hot' encoding for a piece
     def get_piece(self, piece):
         if piece == [[1, 1, 1], [0, 1, 0]]:
             return [1, 0, 0, 0, 0, 0, 0]
-        elif piece == [[0, 1, 1], [1, 1, 0]]:
+        elif piece == [[0, 2, 2], [2, 2, 0]]:
             return [0, 1, 0, 0, 0, 0, 0]
-        elif piece == [[1, 1, 0], [0, 1, 1]]:
+        elif piece == [[3, 3, 0], [0, 3, 3]]:
             return [0, 0, 1, 0, 0, 0, 0]
-        elif piece == [[1, 0, 0], [1, 1, 1]]:
+        elif piece == [[4, 0, 0], [4, 4, 4]]:
             return [0, 0, 0, 1, 0, 0, 0]
-        elif piece == [[0, 0, 1], [1, 1, 1]]:
+        elif piece == [[0, 0, 5], [5, 5, 5]]:
             return [0, 0, 0, 0, 1, 0, 0]
-        elif piece == [[1, 1, 1, 1]]:
+        elif piece == [[6, 6, 6, 6]]:
             return [0, 0, 0, 0, 0, 1, 0]
         else:
             return [0, 0, 0, 0, 0, 0, 1]
@@ -305,6 +307,12 @@ class Tetris(object):
             else:
                 count += (height_2 - height_1)
         self.bumpiness = count
+
+    def get_aggregate_height(self):
+        total_height = 0
+        for col in range(len(self.board[0])):
+            total_height += self.get_column_height(col)
+        self.aggregate_height = total_height
 
     def get_column_height(self, col):
         for row in range(len(self.board) - 1):
@@ -373,10 +381,12 @@ class Tetris(object):
             if self.gameover:
                 self.calculate_holes()
                 self.calculate_bumpiness()
+                self.get_aggregate_height()
                 self.game_end_info = {
                     'score': self.score,
                     'holes': self.holes,
-                    'bumpiness': self.bumpiness
+                    'bumpiness': self.bumpiness,
+                    'aggregate_height': self.aggregate_height
                 }
                 return self.game_end_info, self.genome
 

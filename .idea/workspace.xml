@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5f371a1-6691-4bf0-9c49-cf846778d91a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/neat-flappy/FlapPyBird/flappy.py" beforeDir="false" afterPath="$PROJECT_DIR$/neat-flappy/FlapPyBird/flappy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEAT_demos/config-feedforward" beforeDir="false" afterPath="$PROJECT_DIR$/NEAT_demos/config-feedforward" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neat-flappy/FlapPyBird/modules/flappybird.py" beforeDir="false" afterPath="$PROJECT_DIR$/neat-flappy/FlapPyBird/modules/flappybird.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neat-flappy/FlapPyBird/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/neat-flappy/FlapPyBird/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neat-flappy/flappy-config" beforeDir="false" afterPath="$PROJECT_DIR$/neat-flappy/flappy-config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neat-flappy/flappy_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/neat-flappy/flappy_train.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neat-flappy/flappy_winner.py" beforeDir="false" afterPath="$PROJECT_DIR$/neat-flappy/flappy_winner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neat-flappy/winner.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/neat-flappy/winner.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neat-tetris/Tetris/state_holder.py" beforeDir="false" afterPath="$PROJECT_DIR$/neat-tetris/Tetris/state_holder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neat-tetris/Tetris/tetris.py" beforeDir="false" afterPath="$PROJECT_DIR$/neat-tetris/Tetris/tetris.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neat-tetris/tetris-config" beforeDir="false" afterPath="$PROJECT_DIR$/neat-tetris/tetris-config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neat-tetris/tetris_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/neat-tetris/tetris_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neat-tetris/winner.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/neat-tetris/winner.pkl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,14 +25,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tetris.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/neat-tetris/Tetris/tetris.py">
+      <file leaf-file-name="flappybird.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/neat-flappy/FlapPyBird/modules/flappybird.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="308" column="34" selection-start-line="308" selection-start-column="34" selection-end-line="308" selection-end-column="34" />
+            <state relative-caret-position="629">
+              <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flappy_train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/neat-flappy/flappy_train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
-                <element signature="e#0#36#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flappy_winner.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/neat-flappy/flappy_winner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="visualize.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NEAT_demos/visualize.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1">
+              <caret line="107" column="25" lean-forward="true" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="state_holder.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/neat-tetris/Tetris/state_holder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="32" selection-start-column="32" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flappy-config" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/neat-flappy/flappy-config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -32,8 +91,8 @@
       <file leaf-file-name="tetris-config" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/neat-tetris/tetris-config">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="83" column="24" lean-forward="true" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
+            <state relative-caret-position="-16">
+              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -41,10 +100,23 @@
       <file leaf-file-name="tetris_train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/neat-tetris/tetris_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <state relative-caret-position="442">
+              <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tetris.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/neat-tetris/Tetris/tetris.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="542">
+              <caret line="268" column="27" selection-start-line="268" selection-start-column="27" selection-end-line="268" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+                <marker date="1523924781183" expanded="true" signature="7959:7960" ph="..." />
               </folding>
             </state>
           </provider>
@@ -61,36 +133,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>running generation</find>
-      <find>crash_info</find>
-      <find>move_dec</find>
-      <find>lam</find>
-      <find>str(</find>
-      <find>1000</find>
-      <find>100</find>
-      <find>1</find>
-      <find>move</find>
-      <find>initial</find>
-      <find>sc</find>
-      <find>get_piece</find>
-      <find>init_game</find>
-      <find>40</find>
-      <find>colors</find>
-      <find>color</find>
-      <find>random.ch</find>
-      <find>input</find>
-      <find>append</find>
-      <find>event</find>
-      <find>game_end</find>
       <find>has_</find>
       <find>print</find>
       <find>232</find>
       <find>score</find>
       <find>self.board</find>
       <find>holes</find>
-      <find>neural</find>
-      <find>2000</find>
       <find>rows</find>
+      <find>paused</find>
+      <find>network</find>
+      <find>output</find>
+      <find>get_agg</find>
+      <find>aggreg</find>
+      <find>time</find>
+      <find>neur</find>
+      <find>100</find>
+      <find>400</find>
+      <find>neural</find>
+      <find>rand</find>
+      <find>random.</find>
+      <find>10</find>
+      <find>get</find>
+      <find>return 1</find>
+      <find>2000</find>
+      <find>20</find>
+      <find>visualize</find>
+      <find>input</find>
+      <find>thresh</find>
+      <find>200</find>
+      <find>-30</find>
+      <find>move</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -101,19 +173,24 @@
       <list>
         <option value="$PROJECT_DIR$/neat-tetris/Tetris/tetris_group.py" />
         <option value="$PROJECT_DIR$/neat-flappy/FlapPyBird/flappy.py" />
+        <option value="$PROJECT_DIR$/neat-flappy/FlapPyBird/setup.py" />
         <option value="$PROJECT_DIR$/neat-flappy/FlapPyBird/modules/flappybird.py" />
-        <option value="$PROJECT_DIR$/neat-flappy/flappy_winner.py" />
-        <option value="$PROJECT_DIR$/neat-tetris/Tetris/state_holder.py" />
-        <option value="$PROJECT_DIR$/neat-flappy/flappy_train.py" />
+        <option value="$PROJECT_DIR$/NEAT_demos/xor.py" />
+        <option value="$PROJECT_DIR$/neat-flappy/visualize.py" />
+        <option value="$PROJECT_DIR$/NEAT_demos/config-feedforward" />
         <option value="$PROJECT_DIR$/neat-tetris/tetris-config" />
         <option value="$PROJECT_DIR$/neat-tetris/tetris_train.py" />
+        <option value="$PROJECT_DIR$/neat-flappy/flappy-config" />
+        <option value="$PROJECT_DIR$/neat-flappy/flappy_winner.py" />
+        <option value="$PROJECT_DIR$/neat-flappy/flappy_train.py" />
+        <option value="$PROJECT_DIR$/neat-tetris/Tetris/state_holder.py" />
         <option value="$PROJECT_DIR$/neat-tetris/Tetris/tetris.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="840" />
+    <option name="width" value="1387" />
     <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -123,11 +200,45 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FinalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FinalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalProject" type="462c0819:PsiDirectoryNode" />
+              <item name="neat-flappy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FinalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalProject" type="462c0819:PsiDirectoryNode" />
+              <item name="neat-tetris" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FinalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalProject" type="462c0819:PsiDirectoryNode" />
+              <item name="neat-tetris" type="462c0819:PsiDirectoryNode" />
+              <item name="Tetris" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FinalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalProject" type="462c0819:PsiDirectoryNode" />
+              <item name="NEAT_demos" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -141,7 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tetris_train">
+  <component name="RunManager" selected="Python.flappy_train">
     <configuration name="flappy_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FinalProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,9 +352,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tetris_train" />
-        <item itemvalue="Python.flappy_winner" />
         <item itemvalue="Python.flappy_train" />
+        <item itemvalue="Python.flappy_winner" />
+        <item itemvalue="Python.tetris_train" />
         <item itemvalue="Python.flappybird" />
         <item itemvalue="Python.state_holder" />
       </list>
@@ -263,45 +374,55 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="840" height="1028" extended-state="0" />
+    <frame x="0" y="22" width="1387" height="1028" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.09483146" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17924528" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25378513" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="right" id="Run" order="3" visible="true" weight="0.051910598" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.45982143" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Debug" order="2" visible="true" weight="0.027253669" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17924528" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.09483146" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45982143" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.09483146" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3028274" />
-      <window_info anchor="bottom" id="Python Console" order="0" />
-      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.15178572" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Python Console" order="0" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -319,147 +440,10 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/neat-tetris/tetris_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neat-flappy/flappy_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neat-tetris/Tetris/state_holder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neat-tetris/Tetris/tetris.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4879">
-          <caret line="290" column="17" selection-start-line="290" selection-start-column="17" selection-end-line="290" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neat-tetris/tetris-config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neat-flappy/flappy_winner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neat-tetris/tetris_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neat-flappy/flappy_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neat-tetris/Tetris/state_holder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neat-tetris/tetris-config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neat-tetris/Tetris/tetris.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4879">
-          <caret line="290" column="17" lean-forward="true" selection-start-line="290" selection-start-column="17" selection-end-line="290" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/1996403867/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="3576" column="8" selection-start-line="3576" selection-start-column="8" selection-end-line="3576" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/neat/reporting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/neat/population.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neat-tetris/Tetris/tetris_group.py" />
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/neat/nn/feed_forward.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pygame/examples/macosx/aliens_app_example/aliens.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="260" column="31" selection-start-line="260" selection-start-column="31" selection-end-line="260" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/1996403867/pygame/constants.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
@@ -521,16 +505,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/neat-tetris/tetris_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="85">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -539,17 +520,306 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/neat-tetris/tetris-config">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
+        <state relative-caret-position="827">
           <caret line="83" column="24" lean-forward="true" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/neat-tetris/Tetris/tetris.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="308" column="34" selection-start-line="308" selection-start-column="34" selection-end-line="308" selection-end-column="34" />
+        <state relative-caret-position="339">
+          <caret line="102" column="27" lean-forward="true" selection-start-line="102" selection-start-column="27" selection-end-line="102" selection-end-column="27" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
+            <marker date="1523924781183" expanded="true" signature="7959:7960" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neat-tetris/tetris_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neat-flappy/flappy_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neat-tetris/Tetris/state_holder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neat-tetris/Tetris/tetris.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4879">
+          <caret line="290" column="17" selection-start-line="290" selection-start-column="17" selection-end-line="290" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+            <marker date="1523924781183" expanded="true" signature="7959:7960" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neat-tetris/tetris-config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neat-flappy/flappy_winner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neat-tetris/tetris_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neat-flappy/flappy_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neat-tetris/Tetris/state_holder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neat-tetris/tetris-config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neat-tetris/Tetris/tetris.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4879">
+          <caret line="290" column="17" lean-forward="true" selection-start-line="290" selection-start-column="17" selection-end-line="290" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+            <marker date="1523924781183" expanded="true" signature="7959:7960" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/1996403867/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="3576" column="8" selection-start-line="3576" selection-start-column="8" selection-end-line="3576" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/neat/reporting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/neat/population.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neat-tetris/Tetris/tetris_group.py" />
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/neat/nn/feed_forward.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pygame/examples/macosx/aliens_app_example/aliens.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="260" column="31" selection-start-line="260" selection-start-column="31" selection-end-line="260" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/1996403867/pygame/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="310" column="23" selection-start-line="310" selection-start-column="23" selection-end-line="310" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pygame/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="191" column="4" selection-start-line="191" selection-start-column="4" selection-end-line="191" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neat-flappy/FlapPyBird/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neat-flappy/FlapPyBird/flappy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NEAT_demos/speciation.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NEAT_demos/Digraph.gv.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NEAT_demos/avg_fitness.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NEAT_demos/xor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding>
+            <element signature="e#83#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neat-flappy/visualize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neat-flappy/Digraph.gv.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neat-flappy/Digraph.gv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neat-flappy/FlapPyBird/modules/flappybird.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NEAT_demos/config-feedforward">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neat-tetris/tetris-config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NEAT_demos/visualize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="107" column="25" lean-forward="true" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neat-tetris/tetris_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neat-flappy/diagrams.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neat-flappy/flappy-config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neat-flappy/flappy_winner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neat-flappy/flappy_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neat-tetris/Tetris/state_holder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neat-tetris/Tetris/tetris.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="268" column="27" selection-start-line="268" selection-start-column="27" selection-end-line="268" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+            <marker date="1523924781183" expanded="true" signature="7959:7960" ph="..." />
           </folding>
         </state>
       </provider>

@@ -44,7 +44,6 @@ class Bird(object):
 
         # Feed the neural network information
         output = self.neural_network.activate(input)
-
         # Obtain Prediction
         if output[0] > 0.4:
             # Decide to flap

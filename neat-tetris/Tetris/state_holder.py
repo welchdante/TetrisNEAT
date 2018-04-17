@@ -1,5 +1,4 @@
 from Tetris.tetris import Tetris
-from pprint import pprint
 
 class StateHolder(object):
     def __init__(self, genomes, config):
